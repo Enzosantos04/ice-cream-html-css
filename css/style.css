@@ -1,0 +1,912 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wrapper {
+  /*background*/
+  background-color: #ffe4e1;
+  width: 100vw;
+}
+
+.header {
+  /*header*/
+
+  width: 100vw;
+  background-color: pink;
+  position: fixed;
+  border-bottom: 0.4em solid rgb(192, 0, 128);
+  border-top: 0.4em solid rgb(192, 0, 128);
+}
+
+.container {
+  /*header content*/
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 13vh;
+  overflow: hidden;
+}
+
+.logo-header {
+  /*header logo*/
+  display: flex;
+  align-items: center;
+  margin: 0 3em;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-img {
+  /*header img logo size*/
+  height: 14vh;
+}
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  /*header buttons */
+  display: inline;
+  text-decoration: none;
+  font-size: 2vh;
+  font-size: 2em;
+  color: white;
+}
+
+nav a:hover {
+  /*header buttons hover*/
+  text-decoration: none;
+  color: rgb(192, 0, 128);
+  transition: all 0.3s ease;
+}
+
+.content {
+  /*banner img 1*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.ice-cream {
+  /*size of banner 1*/
+  width: 100vw;
+  height: 50vh;
+  margin-top: 14vh;
+  border-bottom: 0.4em solid rgb(192, 0, 128);
+}
+
+.main-content {
+  padding: 0 24.333rem 0;
+  /*@media screen and (max-width:768px) {
+    padding: 0 2rem;
+    
+  }
+  @media  screen and (max-width:921px) {
+    padding: 0 4rem;
+    
+  }*/
+}
+
+.content-A {
+  display: flex;
+  gap: 8px;
+  border-radius: 3px;
+  width: 100%;
+  margin-top: 3px;
+  flex-direction: column;
+}
+
+.item1 {
+  gap: 16px;
+  display: flex;
+  width: 100%;
+  min-height: 539px;
+}
+
+.item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebd1c5;
+  width: 50%;
+  border-radius: 4px;
+  box-shadow: 0 3px 3px 0;
+}
+
+.textbox-A {
+  color: white;
+  font-size: 50px;
+  text-decoration: dotted;
+}
+#mini-text {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(192, 0, 128);
+  transition: all 0.3s ease;
+}
+
+.item3 {
+  width: 50%;
+  border-radius: 4px;
+  box-shadow: 0 3px 3px 0;
+  display: flex;
+}
+
+#boximg1, #boximg2, #boximg3 {
+  height: 560px;
+}
+
+.item4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebd1c5;
+  width: 50%;
+  border-radius: 4px;
+  box-shadow: 0 3px 3px 0;
+}
+
+.item5 {
+  width: 50%;
+  background-color: #ebd1c5;
+  border-radius: 4px;
+  box-shadow: 0 3px 3px 0;
+  align-items: center;
+  display: flex;
+}
+
+.textbox-B {
+  color: white;
+  font-size: 50px;
+  text-decoration: dotted;
+  margin-left: 40px;
+}
+#mini-textB {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.item6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebd1c5;
+  width: 50%;
+  border-radius: 4px;
+  box-shadow: 0 3px 3px 0;
+}
+.textbox-C {
+  color: white;
+  font-size: 50px;
+  text-decoration: dotted;
+  margin-left: 40px;
+}
+#mini-textC {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.item7 {
+  width: 50%;
+  background-color: palevioletred;
+  border-radius: 4px;
+  box-shadow: 0 3px 3px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.footer {
+  display: flex;
+  background-color: pink;
+  margin-top: 20px;
+  height: 9vh;
+}
+
+#textfooter {
+  margin-left: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+#textfooter:hover {
+  transition: all 0.3s ease;
+  color: rgb(192, 0, 128);
+}
+
+#textfooter00 {
+  text-decoration: none;
+  color: white;
+}
+
+#textfooter00:hover {
+  transition: all 0.3s ease;
+  color: rgb(192, 0, 128);
+}
+
+.Banner-A {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bannerimg {
+  margin-top: 14vh;
+  border-bottom: 0.4em solid rgb(192, 0, 128);
+  height: 40vh;
+  width: 100vw;
+}
+
+.text1 {
+  color: rgb(192, 0, 128);
+  display: flex;
+  justify-content: center;
+}
+
+.text2 {
+  color: rgb(192, 0, 128);
+  display: flex;
+  justify-content: center;
+}
+
+/* here finish index.html */
+
+/* here starts first bacth of ice cream images boxes menu.html*/
+.main-content-menu-A {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.flavour1 {
+  border-radius: 5px;
+  height: 30vh;
+  width: 20vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+}
+
+#strimg {
+  height: 30vh;
+  width: 20vw;
+}
+
+.flavour2 {
+  border-radius: 5px;
+  height: 30vh;
+  width: 20vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+}
+
+#chocimg {
+  height: 30vh;
+  width: 20vw;
+}
+
+.flavour3 {
+  border-radius: 5px;
+  height: 30vh;
+  width: 20vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+}
+
+#vanimg {
+  height: 30vh;
+  width: 20vw;
+}
+
+.flavour4 {
+  border-radius: 5px;
+  height: 30vh;
+  width: 20vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+}
+
+#caramelimg {
+  height: 30vh;
+  width: 20vw;
+}
+
+.flavour5 {
+  border-radius: 5px;
+  height: 30vh;
+  width: 20vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+}
+
+#cocoimg {
+  height: 30vh;
+  width: 20vw;
+}
+/* here finish first bacth of ice cream images boxes */
+
+/* here start the first bacth of description boxes menu.html*/
+.main-content-menu-B {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.desc1 {
+  border-radius: 5px;
+  height: 22vh;
+  width: 11vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+  background-color: pink;
+}
+
+h3 {
+  color: rgb(192, 0, 128);
+  font-size: 21px;
+}
+.desc-flavour1 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+}
+
+.topping1 {
+  color: rgb(192, 0, 128);
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.price-flavour1 {
+  color: rgb(192, 0, 128);
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.desc2 {
+  border-radius: 5px;
+  height: 22vh;
+  width: 11vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+  background-color: pink;
+}
+
+.desc-flavour2 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+}
+
+.topping2 {
+  color: rgb(192, 0, 128);
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.price-flavour2 {
+  color: rgb(192, 0, 128);
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.desc3 {
+  border-radius: 5px;
+  height: 22vh;
+  width: 11vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+  background-color: pink;
+}
+
+.desc-flavour3 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+}
+.topping3 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.price-flavour3 {
+  color: rgb(192, 0, 128);
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.desc4 {
+  border-radius: 5px;
+  height: 22vh;
+  width: 11vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+  background-color: pink;
+}
+
+.desc-flavour4 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+}
+.topping4 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.price-flavour4 {
+  color: rgb(192, 0, 128);
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.desc5 {
+  border-radius: 5px;
+  height: 22vh;
+  width: 11vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+  background-color: pink;
+}
+
+.desc-flavour5 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+}
+.topping5 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.price-flavour5 {
+  color: rgb(192, 0, 128);
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+/* here finish the first bacth of description boxes menu.html*/
+
+/* here start the second bacth of ice cream images boxes */
+
+.main-content-menu-C {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+.flavour6 {
+  border-radius: 5px;
+  height: 30vh;
+  width: 20vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+}
+
+#raspimg {
+  height: 30vh;
+  width: 20vw;
+}
+
+.flavour7 {
+  border-radius: 5px;
+  height: 30vh;
+  width: 20vw;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+  overflow: hidden;
+}
+
+#oreoimg {
+  height: 30vh;
+  width: 20vw;
+}
+
+.flavour8 {
+  border-radius: 5px;
+  height: 30vh;
+  width: 20vw;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+}
+
+#lemonimg {
+  height: 30vh;
+  width: 20vw;
+}
+
+.flavour9 {
+  border-radius: 5px;
+  height: 30vh;
+  width: 20vw;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+}
+
+#coffeeimg {
+  height: 30vh;
+  width: 20vw;
+}
+
+.flavour10 {
+  display: flex;
+  height: 30vh;
+  width: 20vw;
+  margin: 4px;
+  box-shadow: 0 3px 3px 0;
+  border-radius: 5px;
+}
+#mangoimg {
+  height: 30vh;
+  width: 20vw;
+}
+/* here finish the second bacth of ice cream images boxes */
+
+/* here start the second bacth of description boxes menu.html*/
+
+.main-content-menu-D {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.desc6 {
+  border-radius: 5px;
+  height: 22vh;
+  width: 11vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+  background-color: pink;
+}
+.desc-flavour6 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+}
+
+.topping6 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.price-flavour6 {
+  color: rgb(192, 0, 128);
+  margin-top: 15px;
+  font-size: 25px;
+}
+.desc7 {
+  border-radius: 5px;
+  height: 22vh;
+  width: 11vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+  background-color: pink;
+}
+.desc-flavour7 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+}
+
+.topping7 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.price-flavour7 {
+  color: rgb(192, 0, 128);
+  margin-top: 15px;
+  font-size: 25px;
+}
+.desc8 {
+  border-radius: 5px;
+  height: 22vh;
+  width: 11vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+  background-color: pink;
+}
+.desc-flavour8 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+}
+
+.topping8 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.price-flavour8 {
+  color: rgb(192, 0, 128);
+  margin-top: 15px;
+  font-size: 25px;
+}
+.desc9 {
+  border-radius: 5px;
+  height: 22vh;
+  width: 11vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+  background-color: pink;
+}
+.desc-flavour9 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+}
+
+.topping9 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.price-flavour9 {
+  color: rgb(192, 0, 128);
+  margin-top: 15px;
+  font-size: 25px;
+}
+.desc10 {
+  border-radius: 5px;
+  height: 22vh;
+  width: 11vw;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 3px 3px 0;
+  margin: 4px;
+  background-color: pink;
+}
+.desc-flavour10 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+}
+
+.topping10 {
+  color: rgb(192, 0, 128);
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.price-flavour10 {
+  color: rgb(192, 0, 128);
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+/* here finish the second bacth of description boxes menu.html*/
+
+/* here starts about.html */
+
+.banner-about {
+  display: flex;
+  height: 60vh;
+  border-bottom: rgb(192, 0, 128);
+}
+.bannerdesign {
+  margin-top: 14vh;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: rgb(192, 0, 128);
+}
+
+.about1 {
+  background-color: #ebd1c5;
+  width: 50vw;
+}
+
+.about2 {
+  width: 50vw;
+  display: flex;
+  overflow: hidden;
+}
+
+#bnnrimg {
+  height: 60vh;
+  width: 50vw;
+  object-fit: cover;
+}
+.textbanner1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+  font-size: 2.5em;
+  color: white;
+}
+
+.textbanner1:hover {
+  color: rgb(192, 0, 128);
+  transition: all 0.3s ease;
+}
+
+.textbanner2 {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.textbanner2:hover{
+  color: rgb(192, 0, 128);
+  transition: all 0.3s ease;
+}
+
+.abouthistory{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ebd1c5;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0px;
+}
+.abouthistorytext h2{
+  color: rgb(192, 0, 128);
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.abouthistorytext p{
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 19px;
+  color: rgb(192, 0, 128);
+}
+/* here finish about.html */
+
+.banner-contact {
+  display: flex;
+  height: 60vh;
+  border-bottom: rgb(192, 0, 128);
+}
+.bannerdesigncontact {
+  margin-top: 14vh;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: rgb(192, 0, 128);
+}
+
+.contact1 {
+  background-color: #ebd1c5;
+  width: 50vw;
+}
+
+.contact2 {
+  width: 50vw;
+  display: flex;
+  overflow: hidden;
+}
+
+#bnnrimg {
+  height: 60vh;
+  width: 50vw;
+  object-fit: cover;
+}
+.textbanner1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+  font-size: 2.5em;
+  color: white;
+}
+
+.textbanner1:hover {
+  color: rgb(192, 0, 128);
+  transition: all 0.3s ease;
+}
+
+.textbanner2 {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.textbanner2:hover{
+  color: rgb(192, 0, 128);
+  transition: all 0.3s ease;
+}
+/* here finish banner css */
+
+.main-contact{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ebd1c5;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0px;
+ margin-bottom: 30px;
+ display: flex;
+ justify-content: center;
+}
+
+.main-contact h2{
+  color: rgb(192, 0, 128);
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.main-contact p{
+  margin-bottom: 5px;
+  color: rgb(192, 0, 128);
+  font-size: 22px;
+}
+
+.main-contact a{
+  color: #007bff;
+  text-decoration: none;
+
+}
+
+.main-contact form{
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.main-contact label{
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(192, 0, 128);
+  font-size: 23px;
+}
+
+.main-contact input[type="text"], 
+input[type="email"], textarea{
+  width: 100%;
+  color:black;
+  border: 1px solid rgb(192, 0, 128);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.main-contact button{
+  background-color: rgb(192, 0, 128);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
