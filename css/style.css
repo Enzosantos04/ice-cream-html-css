@@ -107,6 +107,7 @@ nav a:hover {
   display: flex;
   width: 100%;
   min-height: 539px;
+  border-radius: 4px;
 }
 
 .item2 {
@@ -142,7 +143,9 @@ a:hover {
   display: flex;
 }
 
-#boximg1, #boximg2, #boximg3 {
+#boximg1,
+#boximg2,
+#boximg3 {
   height: 560px;
 }
 
@@ -212,12 +215,14 @@ a:hover {
   background-color: pink;
   margin-top: 20px;
   height: 9vh;
+  overflow: hidden;
 }
 
 #textfooter {
   margin-left: 5px;
   color: white;
   text-decoration: none;
+  overflow: hidden;
 }
 
 #textfooter:hover {
@@ -766,12 +771,12 @@ h3 {
   text-align: center;
 }
 
-.textbanner2:hover{
+.textbanner2:hover {
   color: rgb(192, 0, 128);
   transition: all 0.3s ease;
 }
 
-.abouthistory{
+.abouthistory {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -780,13 +785,13 @@ h3 {
   border-radius: 5px;
   box-shadow: 0 2px 2px 0px;
 }
-.abouthistorytext h2{
+.abouthistorytext h2 {
   color: rgb(192, 0, 128);
   font-size: 24px;
   margin-bottom: 15px;
 }
 
-.abouthistorytext p{
+.abouthistorytext p {
   line-height: 1.6;
   margin-bottom: 15px;
   font-size: 19px;
@@ -844,13 +849,13 @@ h3 {
   text-align: center;
 }
 
-.textbanner2:hover{
+.textbanner2:hover {
   color: rgb(192, 0, 128);
   transition: all 0.3s ease;
 }
 /* here finish banner css */
-
-.main-contact{
+/* contact us css */
+.main-contact {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -858,55 +863,244 @@ h3 {
   margin-top: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 2px 0px;
- margin-bottom: 30px;
- display: flex;
- justify-content: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
 
-.main-contact h2{
+.main-contact h2 {
   color: rgb(192, 0, 128);
   font-size: 24px;
   margin-bottom: 30px;
 }
 
-.main-contact p{
+.main-contact p {
   margin-bottom: 5px;
   color: rgb(192, 0, 128);
   font-size: 22px;
 }
 
-.main-contact a{
+.main-contact a {
   color: #007bff;
   text-decoration: none;
-
 }
 
-.main-contact form{
+.main-contact form {
   max-width: 400px;
   margin-top: 20px;
 }
 
-.main-contact label{
+.main-contact label {
   display: block;
   margin-bottom: 5px;
   color: rgb(192, 0, 128);
   font-size: 23px;
 }
 
-.main-contact input[type="text"], 
-input[type="email"], textarea{
+.main-contact input[type="text"],
+input[type="email"],
+textarea {
   width: 100%;
-  color:black;
+  color: black;
   border: 1px solid rgb(192, 0, 128);
   border-radius: 4px;
   box-sizing: border-box;
 }
 
-.main-contact button{
+.main-contact button {
   background-color: rgb(192, 0, 128);
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+/* contact us css */
+/* Special content */
+
+.banner-special {
+  display: flex;
+  height: 60vh;
+  border-bottom: rgb(192, 0, 128);
+}
+.banner-design-special {
+  margin-top: 14vh;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: rgb(192, 0, 128);
+}
+
+.about-special {
+  background-color: #ebd1c5;
+  width: 50vw;
+}
+
+.about-special2 {
+  width: 50vw;
+  display: flex;
+  overflow: hidden;
+}
+
+#bnnr-special-img {
+  height: 50vh;
+  width: 50vw;
+  overflow: hidden;
+}
+.textspecial1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+  font-size: 2.5em;
+  color: white;
+}
+
+.textspecial1:hover {
+  color: rgb(192, 0, 128);
+  transition: all 0.3s ease;
+}
+
+.textspecial2 {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.textspecial2:hover {
+  color: rgb(192, 0, 128);
+  transition: all 0.3s ease;
+}
+/* Special content flavours and descriptions */
+
+.special-flavours-main {
+  padding: 0 24rem 0;
+  /*@media screen and (max-width:768px) {
+    padding: 0 2rem;
+    
+  }
+  @media  screen and (max-width:921px) {
+    padding: 0 4rem;*/
+}
+.special-content {
+  display: flex;
+  margin-top: 30px;
+  gap: 25px;
+}
+
+.special-flavours-A {
+  width: 35vw;
+  height: 45vh;
+  border-radius: 6px;
+  box-shadow: 0 3px 3px 0;
+  overflow: hidden;
+}
+.special-flavours-B {
+  background-color: #ebd1c5;
+  width: 35vw;
+  height: 45vh;
+  border-radius: 6px;
+  box-shadow: 0 3px 3px 0;
+}
+
+h2 {
+  color: rgb(192, 0, 128);
+  text-align: center;
+}
+
+p {
+  color: rgb(192, 0, 128);
+  font-size: 20px;
+  margin-left: 5px;
+ 
+}
+
+#txtprice {
+  font-size: 23px;
+  text-align: center;
+}
+
+#snny-img {
+  height: 45vh;
+  width: 30vw;
+}
+
+.special-flavours-main-B {
+  padding: 0 24rem 0;
+  /*@media screen and (max-width:768px) {
+    padding: 0 2rem;
+    
+  }
+  @media  screen and (max-width:921px) {
+    padding: 0 4rem;*/
+}
+.special-content-B {
+  display: flex;
+  margin-top: 30px;
+  gap: 25px;
+}
+
+.special-flavours-C {
+  width: 35vw;
+  height: 45vh;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px 0;
+  overflow: hidden;
+}
+
+.special-flavours-D {
+  background-color: #ebd1c5;
+  width: 35vw;
+  height: 45vh;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px 0;
+}
+
+#txtprice-b {
+  font-size: 23px;
+  text-align: center;
+}
+
+#special-strawberry-img {
+  height: 45vh;
+  width: 30vw;
+}
+.special-flavours-main-C {
+  padding: 0 24rem 0;
+  /*@media screen and (max-width:768px) {
+    padding: 0 2rem;
+    
+  }
+  @media  screen and (max-width:921px) {
+    padding: 0 4rem;*/
+}
+.special-content-C {
+  display: flex;
+  margin-top: 30px;
+  gap: 25px;
+}
+
+.special-flavours-E {
+  width: 35vw;
+  height: 45vh;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px 0;
+  overflow: hidden;
+}
+.special-flavours-F {
+  background-color: #ebd1c5;
+  width: 35vw;
+  height: 45vh;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px 0;
+}
+
+#bubble-blueberry{
+  height: 45vh;
+  width: 30vw;
+}
+#txt-price-c {
+  font-size: 23px;
+  text-align: center;
 }
