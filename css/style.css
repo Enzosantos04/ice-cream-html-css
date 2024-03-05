@@ -1013,7 +1013,6 @@ p {
   color: rgb(192, 0, 128);
   font-size: 20px;
   margin-left: 5px;
- 
 }
 
 #txtprice {
@@ -1096,7 +1095,7 @@ p {
   box-shadow: 0 3px 3px 0;
 }
 
-#bubble-blueberry{
+#bubble-blueberry {
   height: 45vh;
   width: 30vw;
 }
