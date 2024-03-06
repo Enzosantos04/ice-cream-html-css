@@ -197,6 +197,11 @@ a:hover {
 #mini-textC {
   font-size: 12px;
   text-decoration: underline;
+  color: white;
+}
+#mini-textC:hover {
+  transition: all 0.3s ease;
+  color: rgb(192, 0, 128);
 }
 
 .item7 {
