@@ -128,6 +128,12 @@ nav a:hover {
 #mini-text {
   font-size: 12px;
   text-decoration: underline;
+  color: white;
+}
+
+#mini-text:hover {
+  color: rgb(192, 0, 128);
+  transition: all 0.3s ease;
 }
 
 a:hover {
@@ -177,6 +183,11 @@ a:hover {
 #mini-textB {
   font-size: 12px;
   text-decoration: underline;
+  color: white;
+}
+#mini-textB:hover {
+  transition: all 0.3s ease;
+  color: rgb(192, 0, 128);
 }
 
 .item6 {
